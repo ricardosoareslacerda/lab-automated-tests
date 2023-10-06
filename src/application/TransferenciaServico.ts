@@ -13,13 +13,19 @@ export class TransferenciaServico {
     public transferir(dto: TransferenciaDTO): string {
         const contaOrigem = this._repositorio.buscar(dto.contaOrigem);
         const contaDestino = this._repositorio.buscar(dto.contaDestino);
-
+    
+        if(contaOrigem === undefined) 
+            throw Error("conta de origem não encontrada");
+    
+        if(contaDestino === undefined)
+            throw Error("conta de destino não encontrada");
+    
         const transferencia = new TransferenciaValor();
-        const recibo = transferencia.transferir(contaOrigem, contaDestino, dto.valor);
-
-        this._repositorio.adicionar(contaOrigem);
-        this._repositorio.adicionar(contaDestino);
-
+        const recibo = transferencia.transferir(contaOrigem!, contaDestino!, dto.valor);
+    
+        this._repositorio.adicionar(contaOrigem!);
+        this._repositorio.adicionar(contaDestino!);
+    
         return recibo.codigo;
     }
 }

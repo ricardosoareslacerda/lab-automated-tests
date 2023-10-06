@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1696033889209" clover="3.2.0">
+  <project timestamp="1696033889209" name="All files">
+    <metrics statements="53" coveredstatements="53" conditionals="5" coveredconditionals="5" methods="20" coveredmethods="20" elements="78" coveredelements="78" complexity="0" loc="53" ncloc="53" packages="5" files="7" classes="7"/>
+    <package name="__tests__.fake">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="MemoriaContaRepositorio.ts" path="/home/wls-ricardo-gok/lab-automated-tests/__tests__/fake/MemoriaContaRepositorio.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.application">
+      <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="TransferenciaServico.ts" path="/home/wls-ricardo-gok/lab-automated-tests/src/application/TransferenciaServico.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="17" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.application.dto">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="TransferenciaDTO.ts" path="/home/wls-ricardo-gok/lab-automated-tests/src/application/dto/TransferenciaDTO.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.model">
+      <metrics statements="26" coveredstatements="26" conditionals="3" coveredconditionals="3" methods="13" coveredmethods="13"/>
+      <file name="Conta.ts" path="/home/wls-ricardo-gok/lab-automated-tests/src/model/Conta.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="8" count="21" type="stmt"/>
+        <line num="9" count="21" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+        <line num="32" count="16" type="stmt"/>
+        <line num="36" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="4" type="stmt"/>
+      </file>
+      <file name="NumeroConta.ts" path="/home/wls-ricardo-gok/lab-automated-tests/src/model/NumeroConta.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="5" count="25" type="stmt"/>
+        <line num="6" count="22" type="stmt"/>
+        <line num="10" count="25" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="16" count="25" type="stmt"/>
+        <line num="17" count="25" type="stmt"/>
+        <line num="21" count="18" type="stmt"/>
+      </file>
+      <file name="Recibo.ts" path="/home/wls-ricardo-gok/lab-automated-tests/src/model/Recibo.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.model.service">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="TransferenciaValor.ts" path="/home/wls-ricardo-gok/lab-automated-tests/src/model/service/TransferenciaValor.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
